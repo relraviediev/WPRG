@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col style="background-color: yellow;">
+            <col style="background-color: yellow;">
+            <col style="background-color: lightblue;">
+            <col style="background-color: lightblue;">
+            <col style="background-color: white;">
+        </colgroup>
+        <tr>
+            <th rowspan="2">Grupa A</th> <th colspan="2">Mecz 1</th> <th colspan="2">Mecz 2</th>
+        </tr>
+        <tr>
+            <th>Drużyna 1</th> <th>Drużyna 2</th> <th>Drużyna 1</th> <th>Drużyna 2</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Rosja</td> <td>1</td> <td>2</td> <td>0</td> <td>0</td>
+        </tr>
+        <tr>
+            <td>2</td> <td>1</td> <td>0</td> <td>0</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Polska</td> <td>0</td> <td>2</td> <td>1</td> <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td> <td>0</td> <td>1</td> <td>1</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="background-color: yellow;">
+                <p>Przykładowa zagnieżdżona tabela</p>
+                <table>
+                    <colgroup>
+                        <col style="background-color: yellow;">
+                        <col style="background-color: yellow;">
+                        <col style="background-color: yellow;">
+                    </colgroup>
+                    <tr>
+                        <th>Imię</th> <th>Nazwisko</th> <th>Wiek</th>
+                    </tr>
+                    <tr>
+                        <td>Jan</td> <td>Kowalski</td> <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Anna</td> <td>Nowak</td> <td>30</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Razem</td> <td style="background-color: lightblue;">4</td> <td style="background-color: lightblue;">4</td> <td style="background-color: white;">2</td> <td style="background-color: white;">2</td>
+        </tr>
+    </table>
+</body>
+</html>
