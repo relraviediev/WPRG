@@ -1,0 +1,20 @@
+.main {
+    background-color: black;
+    padding-right: 30px;
+    height: 350px;
+    width: 250px;
+    align-content: flex-start;
+}
+h1 {
+    color: lightgray;
+}
+.box1 {
+    padding: 50px;
+    margin: 10px;
+    background-color: red;
+}
+.box2{
+    padding: 50px;
+    margin: 10px;
+    background-color: blue;
+}

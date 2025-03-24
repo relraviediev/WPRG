@@ -1,0 +1,19 @@
+#main {
+    margin-left: 45%;
+    max-width: 250px;
+}
+#p1 {
+    color: red;
+}
+#div1 {
+    background-color: blue;
+}
+#span1 {
+    color: green;
+}
+.container {
+    font-style: italic;
+}
+#h3 li {
+    background-color: yellow;
+}
