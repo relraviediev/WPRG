@@ -1,0 +1,18 @@
+.wrapper {
+    text-align: center;
+}
+.img {
+    float: left;
+    margin-right: 10px;
+}
+.text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.el {
+    float: left;
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+}
